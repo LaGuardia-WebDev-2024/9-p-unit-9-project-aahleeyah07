@@ -13,14 +13,29 @@ draw = function(){
   fill(255, 255, 255);
   
   if (answer == 1) {
-    text("YOUR", 176, 200);
-    text("MESSAGE", 159, 229); 
+    text("you will", 176, 200);
+    text("eat cookies soon", 159, 229); 
   }
   
+  if(answer == 2) {
+  text("you will be pied", 160, 200);
+    text("watch your back", 159, 229);
+  
+  }
+if(answer == 3) {
+  text("i will eat", 176, 200);
+    text("your birthday cake", 159, 229);  
+  }
+  
+  if(answer == 4) {
+  text("i dont like you only cake", 150, 200);
+    text("im not answering", 159, 229);}
 };
 
 mouseClicked = function(){
   answer = round(random(1, 5));
 };
 
+
+  
 
